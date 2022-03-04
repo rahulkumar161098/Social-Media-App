@@ -1,0 +1,10 @@
+.feedBox{
+    flex: 5.5;
+    height: 100vh;
+    padding: 10px;
+    overflow-y: scroll;
+    margin-top: 60px;
+}
+/* ::-webkit-scrollbar{
+    width: 5px;
+} */

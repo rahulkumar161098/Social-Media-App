@@ -1,0 +1,52 @@
+/* .userShareBox{
+    padding: 10px;
+} */
+.userShareBox{
+    width: 98%;
+    height: 130px;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 8px;
+    box-shadow: 0px 2px 11px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 2px 11px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 2px 11px -1px rgba(0,0,0,1);
+}
+.feedUserImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.userShareInput{
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+    border: none;
+}
+.userShareInput:focus{
+    outline: none;
+}
+.feedHrLine{
+    margin: 8px 15px;
+}
+.shareList{
+    display: flex;
+    align-items: center;
+}
+.shareItems{
+    margin: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.shareItemIcon{
+    margin-right: 5px;
+}
+.ShareTopBtn{
+    margin-left: 25px;
+    border: none;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: seagreen;
+    color: white;
+}
